@@ -48,6 +48,8 @@ public class MonthTemperatures {
 		
 		for( Double t: temps ) {
 			avg += t;
+			//max = Math.max(max, t);
+			//min = Math.min(min, t);
 		}
 		
 		avg = avg / temps.size();
